@@ -133,6 +133,7 @@ function Validator(formSelector) {
                             break
                         default:
                             values[input.name] = input.value
+                            console.log(values[input.name])
                     }
                     return values
                 }, {})
